@@ -1,7 +1,6 @@
-# CryptoReport Scrapy Project
+# Cryptoreport Scrapy Project
 This is a web scraping project to fetch the latest posts from Cointelegraph and compile them into a JSON file.
 
-1.0 - Initial Config
 
 ## Setup and Execution
 
