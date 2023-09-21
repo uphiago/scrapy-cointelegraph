@@ -32,7 +32,7 @@ With the virtual environment activated, you can install the necessary Python pac
 
 Navigate to the location of `cointelegraph.py`:
 
-`cd scrapycointelegraph/cryptoreport/cryptoreport/spiders` 
+`cd scrapycointelegraph/cryptoreport/spiders` 
 
 Then, run the Scrapy spider with:
 
