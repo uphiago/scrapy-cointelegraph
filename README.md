@@ -16,18 +16,18 @@ And them, activate your venv
 
 `conda activate cryptoreport` 
 
-#### 3. Clone the Repository
+#### 2. Clone the Repository
 Navigate to the directory where you'd like to keep the project and run:
 
 `git clone https://github.com/uphiago/scrapycointelegraph`
  
 
-#### 4. Install Required Packages
+#### 3. Install Required Packages
 With the virtual environment activated, you can install the necessary Python packages from main directory using:
 
 `pip install -r requirements.txt` 
 
-#### 5. Run the Scrapy Spider
+#### 4. Run the Scrapy Spider
 
 Navigate to the location of `cointelegraph.py`:
 
