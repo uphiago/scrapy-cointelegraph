@@ -27,7 +27,22 @@ With the virtual environment activated, you can install the necessary Python pac
 
 `pip install -r requirements.txt` 
 
-#### 4. Run the Scrapy Spider
+#### 4. Set up and Launch Scrapy Splash
+Scrapy Splash is used to render JavaScript on the pages we want to scrape. It uses a Docker image to do this.
+
+4.1. First, ensure you have Docker installed on your machine. If not, [follow this guide](https://docs.docker.com/get-docker/) to get Docker up and running.
+
+4.2. Once Docker is set up, pull the Scrapy Splash Docker image:
+`sudo docker pull scrapinghub/splash`
+
+4.3. After the image is pulled, run a Splash instance:
+`sudo docker run -it -p 8050:8050 --rm scrapinghub/splash`
+
+4.4. Confirm that Splash is running correctly by opening your web browser and navigating to:
+`http://localhost:8050/`
+You should see the Splash welcome page, indicating it's ready to be used by Scrapy.
+
+#### 5. Run the Scrapy Spider
 
 Navigate to the location of `cointelegraph.py`:
 
